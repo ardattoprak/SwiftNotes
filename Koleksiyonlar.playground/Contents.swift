@@ -25,13 +25,13 @@ if numbers.contains(24) {
 
 // Elemanı olmayan bir Array tanımlaması
 var followers: [String] = [] // Elemanı olmayan bir Array
-var myArray: Array<Int> = [] // Sıklıkla kullanılmaz. Karşılaşırsanız korkmayın :)
+var myArray: Array<Int> = [] // Sıklıkla kullanılmaz. 
 
 // Tercih Edilen Kullanım
 var ages = [Int]()
 
 // Array'ler ile Çalışmak
-var zeros = [Int](repeating: 0, count: 100)
+var zeros = [Int](repeating: 0, count: 100) //içinde 100 tane 0 sayısı olur.
 
 // Bir Array'de kaç adet eleman var?
 let nameCount = names.count // 4 Elemanlı
